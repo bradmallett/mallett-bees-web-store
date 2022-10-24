@@ -927,10 +927,11 @@ div#social {
     padding: 0px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .product-item {
-    margin: 50px auto;
+    margin: 50px;
     width: 300px;
     display: flex;
     justify-content: center;
@@ -1102,9 +1103,8 @@ div#social {
     }
     
     .product-item {
+        margin: 50px auto;
         width: 100%;
-        display: flex;
-        justify-content: center;
     }
 
     .section-subtitle-gray {
